@@ -1,0 +1,11 @@
+body {
+    background: #e4cffa url("images/background.jpg") no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+    text-shadow: 3px 4px 5px gray;
+}

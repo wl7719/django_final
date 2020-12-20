@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %} Detail {% endblock %}
+
+{% block content %}
+<body style="background: #ffe0e8">
+    {{object.site_name}}<br/>
+    {{object.url}}
+    <br> <br>
+    <a href = "{% url 'bookmark:update' pk=bookmark.id %}" class = "btn btn-success btn-sm"> Modify </a>
+    <a href = "{% url 'bookmark:delete' pk=bookmark.id %}" class = "btn btn-danger btn-sm"> Delete </a>
+</body>
+{% endblock %}
