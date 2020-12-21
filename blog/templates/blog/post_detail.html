@@ -1,8 +1,7 @@
 {% extends 'base.html' %}
 {% block content %}
 {% include 'blog/base.html' %}
-{% load static %}
-    <link rel="stylesheet" href="{% static 'blog/style.css' %}">
+
 <div class="post">
 {% if post.published_date %}
         <div class="date">
